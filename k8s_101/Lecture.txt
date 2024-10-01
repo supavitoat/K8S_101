@@ -1,0 +1,7 @@
+kubectl get all ดูทั้งหมด
+kubectl apply -f (ชื่อไฟล์) ใช้สร้าง
+kubectl get pods ดู pods ที่มีทั้งหมด
+kubectl logs client-pods
+kubectl delete all --all ลบทั้งหมด
+kubectl delete pods //ลบ pods (client-deployment-c69cb99fc-t29cq)
+สั่ง run พร้อมกัน : kubectl apply -f .
